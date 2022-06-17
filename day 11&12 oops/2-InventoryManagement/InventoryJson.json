@@ -1,0 +1,58 @@
+{
+    "RiceList": [
+        {
+            "name": "Basumathi",
+            "Kg": 1,
+            "price": 220
+        },
+        {
+            "name": "Jasmine",
+            "Kg": 20,
+            "price": 210
+        },
+        {
+            "name": "Mogra",
+            "Kg": 20,
+            "price": 210
+        },
+        {
+            "name": "Godhi",
+            "Kg": 5,
+            "price": 234
+        }
+    ],
+    "WheatList": [
+        {
+            "name": "Khapali",
+            "Kg": 5,
+            "price": 120
+        },
+        {
+            "name": "Sharbati",
+            "Kg": 20,
+            "price": 250
+        },
+        {
+            "name": "Durum",
+            "Kg": 2,
+            "price": 210
+        }
+    ],
+    "PulseList": [
+        {
+            "name": "GreenGram",
+            "Kg": 2,
+            "price": 50
+        },
+        {
+            "name": "WhiteUrad",
+            "Kg": 10,
+            "price": 90
+        },
+        {
+            "name": "BlackGram",
+            "Kg": 2,
+            "price": 110
+        }
+    ]
+}

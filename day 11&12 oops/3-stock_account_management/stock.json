@@ -1,0 +1,40 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _3_stock_account_management
+{
+    class stock
+    {
+        "stocksList\": [" {
+            "StockName": "SBI",
+            "shares": 5,
+            "Price": 120
+        },
+        {
+            "StockName": "CANARA",
+            "shares": 4,
+            "Price": 290
+        },
+        {
+            "StockName": "IDFC",
+            "shares": 2,
+            "Price": 170
+        },
+        {
+            "StockName": "AXIS",
+            "shares": 2,
+            "Price": 150
+        },
+        {
+            "StockName": "HDFC",
+            "shares": 8,
+            "Price": 90
+        },
+        ]
+    }
+
+    
+}

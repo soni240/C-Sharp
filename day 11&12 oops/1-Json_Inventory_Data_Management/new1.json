@@ -1,0 +1,60 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _1_Json_Inventory_Data_Management
+{
+    class new1
+    {
+        "TypeofRice": [
+            {
+
+                "name": "Basumathi",
+                "weight": "1KG",
+                "price": "220"
+            },
+            {
+                "name": "Bullet",
+                "weight": "20KG",
+                "price": "210"
+            }
+        ],
+
+        "TypeofPulses": [
+            {
+
+                "name": "GreenGram",
+                "weight": "2KG",
+                "price": "50"
+            },
+            {
+                "name": "WhiteUrad",
+                "weight": "10KG",
+                "price": "90"
+            }
+        ],
+
+        "TypeofWheats": [
+            {
+
+                "name": "Khapali",
+                "weight": "5KG",
+                "price": "120"
+            },
+            {
+                "name": "Sharbati",
+                "weight": "20KG",
+                "price": "250"
+            }
+        ]
+
+    }
+
+	
+	
+
+
+    
+}
