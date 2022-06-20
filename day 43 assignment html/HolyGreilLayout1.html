@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <title>
+           Holy Greil Layout1
+       </title>
+       <style>
+        /* RESET */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* COLORS and FONTS */
+body {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    line-height: 3;
+}
+header {
+    background: orangered;
+}
+main {
+    background: darkslateblue;
+}
+footer {
+    background: deeppink;
+}
+.left-sidebar {
+    background: dodgerblue;
+}
+.right-sidebar {
+    background: forestgreen;
+}
+.container, 
+.content {
+    display: flex;
+    flex-direction: column;
+}
+@media all and (min-width: 768px) {
+    .content {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    main {
+        flex: 2;
+        order: 2;
+        min-height: 80vh;
+    }
+    .left-sidebar {
+        order: 1;
+        flex: 1;
+    }
+    .right-sidebar {
+        flex: 1;
+        order: 3;
+    }
+}
+     </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>HTML Styles - CSS</h1></header>
+        <div class="content">
+             <main><p style="color:red;">Cascading Style Sheets (CSS) is used to format the layout of a webpage.
+
+                With CSS, you can control the color, font, the size of text, 
+                the spacing between elements, how elements are positioned and 
+                laid out, what background images or background colors 
+                are to be used, different displays for different devices and screen sizes, 
+                and much more!</p></main>
+             <aside class="left-sidebar">HTML Styles
+                <p>The HTML style attribute is used to add styles to an element, 
+                    such as color, font, size, and more.</p>
+             </aside>
+             <aside class="right-sidebar">HTML Lists
+                <p>HTML lists allow web developers to group a set of related items in lists.</p>
+             </aside>
+        </div>
+        <footer>HTMLsite</footer>
+    </div> 
+</body>
+</html>        
+
